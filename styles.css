@@ -46,7 +46,7 @@ form {
   padding: 10px;
   border: 1px solid #eee;
   outline: none;
-  width: 65%;
+  width: 35%;
 }
 
 .inputForm::placeholder {
@@ -73,14 +73,20 @@ form {
   align-items: center;
   justify-content: flex-start;
   overflow-y: scroll;
-  max-height: 60vh;
-  height: 60vh;
+  max-height: 40vh;
+  height: 25vh;
+}
+
+.cardsList-titulo{
+  border: 1px solid #e9e8e8;
+  padding: 5px;
+  margin: 10px 0px;
 }
 
 .card {
   width: 90%;
-  padding: 15px;
-  box-shadow: 2px 4px 4px 4px rgba(71, 71, 71, 0.16);
+  padding: 10px;
+  box-shadow: 1px 2px 2px 2px rgba(71, 71, 71, 0.16);
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -100,7 +106,7 @@ form {
 .icon:hover {
   color: rgba(62, 161, 219, 1);
 }
-
+  
 .completeIcon {
   color: rgba(62, 161, 219, 1);
 }
