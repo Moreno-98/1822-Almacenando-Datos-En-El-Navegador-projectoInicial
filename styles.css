@@ -18,16 +18,28 @@ main {
   justify-content: center;
 }
 
+.form-principal{
+  justify-content:space-around;
+  align-items: center;
+  display: flex;
+}
+
+.form-div{
+    border: 1px solid #e9e8e8;
+    padding: 10px;
+}
+
 form {
   width: 100%;
   justify-content: space-between;
   align-items: center;
   display: flex;
-  margin-bottom: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .mainCard {
-  width: 40vw;
+  width: 80vw;
   border-radius: 25px;
   background-color: #fff;
   padding: 25px;
@@ -66,6 +78,12 @@ form {
   cursor: pointer;
 }
 
+.cardsList-principal{
+  width: 35vw;
+  border: 1px solid #e9e8e8;
+  padding: 10px;
+}
+
 .cardsList {
   width: 100%;
   display: flex;
@@ -73,15 +91,10 @@ form {
   align-items: center;
   justify-content: flex-start;
   overflow-y: scroll;
-  max-height: 40vh;
-  height: 25vh;
+  max-height: 100vh;
+  height: 50vh;
 }
 
-.cardsList-titulo{
-  border: 1px solid #e9e8e8;
-  padding: 5px;
-  margin: 10px 0px;
-}
 
 .card {
   width: 90%;

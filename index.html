@@ -21,37 +21,63 @@
     <main>
       <div class="mainCard">
         <div class="title"><img src="./assets/rocket.svg" /></div>
-        <div>
-          <form action="">
-            <input
-              type="text"
-              name="task"
-              placeholder="Nombre de la tarea"
-              class="inputForm"
-              autocomplete="off"
-              data-form-input
-            />
-            <input type="datetime-local"
-            placeholder="YYYY/MM/DD"
-              data-form-date
-            />
-            <button type="submit" class="btnCreate" data-form-btn>
-              Agregar <i class="fas fa-plus-circle"></i>
-            </button>
-          </form>
-        <div>
-          <div class="cardsList-titulo">
-            <h1>Lista de Cursos</h1>
-            <ul class="cardsList" data-list>
-            </ul>
+        
+          <div class="form-principal">
+
+          <div class="form-div">
+            <h1>Primer Formulario</h1>
+            <form action="">
+              <input
+                type="text"
+                name="task"
+                placeholder="Nombre de la tarea"
+                class="inputForm"
+                autocomplete="off"
+                data-form-input
+              />
+              <input type="datetime-local"
+              placeholder="YYYY/MM/DD"
+                data-form-date
+              />
+              <button type="submit" class="btnCreate" data-form-btn>
+                Agregar <i class="fas fa-plus-circle"></i>
+              </button>
+            </form>
+            <div class="cardsList-principal">
+              <h1>Lista de Cursos</h1>
+              <ul class="cardsList" data-list>
+              </ul>
+            </div>
           </div>
-          
-          <div class="cardsList-titulo">
-            <h1>Lista de Cursos 2</h1>
-            <ul class="cardsList" data-list>
-            </ul>
+
+          <div class="form-div">
+            <h1>Segundo Formulario</h1>
+            <form action="">
+              <input
+                type="text"
+                name="task"
+                placeholder="Nombre de la tarea"
+                class="inputForm"
+                autocomplete="off"
+                data-form-input2
+              />
+              <input type="datetime-local"
+              placeholder="YYYY/MM/DD"
+                data-form-date2
+              />
+              <button type="submit" class="btnCreate" data-form-btn2>
+                Agregar <i class="fas fa-plus-circle"></i>
+              </button>
+            </form>
+            <div class="cardsList-principal">
+                <h1>Lista de Cursos 2</h1>
+                <ul class="cardsList" data-list_2>
+                </ul>
+            </div>
           </div>
-      </div>
+        </div>
+
+        </div> 
     </main>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/moment.min.js"></script>
     <script type="module" src="script.js"></script>
